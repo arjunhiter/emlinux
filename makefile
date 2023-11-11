@@ -16,9 +16,10 @@ CFLAGS = -g -Wall -ansi
 #L_FILES = main703.o
 L_FILES = main.o \
 			main310.o main311.o \
+			main801.o main802.o
 #			main601.o main602.o main603.o \
 #			main701.o main702.o main703.o main704.o main705.o main706.o main707.o \
-#			main801.o main1001.o
+#			main1001.o
 
 myapp: $(L_FILES)
 		$(CC) -o myapp $(L_FILES)
@@ -59,6 +60,8 @@ main707.o: main707.c
 # Linux Program chapter08. 
 main801.o: main801.c
 	$(CC) -I$(INCLUDE) $(CFLAGS) -c main801.c
+main802.o: main802.c
+	$(CC) -I$(INCLUDE) $(CFLAGS) -c main802.c
 	
 # Linux Program chapter10.
 main1001.o: main1001.c

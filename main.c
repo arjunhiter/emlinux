@@ -13,9 +13,10 @@ int main703(void);
 int main704(void);
 int main705(void);
 int main706(void);
-int main707(void);
+int main707(void);*/
 int main801(void);
-int main1001(void);
+int main802(void);
+/*int main1001(void);
 int main1010(void);*/
 
 int main(int argc,char *argv[])
@@ -69,11 +70,14 @@ int main(int argc,char *argv[])
 		    	break;
 		  case 707:
 		  	main707();
-		    	break;
+		    	break;*/
 		  case 801:
 		  	main801();
-		    	break;		
-		  case 1001:
+		    	break;
+		  case 802:
+		  	main802();
+		    	break;
+/*		  case 1001:
 		  	main1001();
 		    	break;
 		  case 1010:
