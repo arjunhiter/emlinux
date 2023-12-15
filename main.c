@@ -4,6 +4,8 @@
 
 void main310(void);
 void main311(void);
+void main312(void);
+
 /*int main601(void);
 int main602(void);
 int main603(void);
@@ -40,6 +42,12 @@ int main(int argc,char *argv[])
 		    	break;
 		  case 311:
 		  	main311();
+		    	break;
+		  case 312:
+		  	main312();
+		    	break;
+		  case 313:
+		  	main313();
 		    	break;
 /*		  case 601:
 		  	main601();
