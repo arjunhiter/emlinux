@@ -1,10 +1,12 @@
-
 #include <stdio.h>
 #include <stdlib.h>
 
 void main310(void);
 void main311(void);
 void main312(void);
+#include "main313.c"
+#include "main314.c"
+#include "main315.c"
 
 /*int main601(void);
 int main602(void);
@@ -15,10 +17,10 @@ int main703(void);
 int main704(void);
 int main705(void);
 int main706(void);
-int main707(void);*/
+int main707(void);
 int main801(void);
 int main802(void);
-/*int main1001(void);
+int main1001(void);
 int main1010(void);*/
 
 int main(int argc,char *argv[])
@@ -49,6 +51,12 @@ int main(int argc,char *argv[])
 		  case 313:
 		  	main313();
 		    	break;
+		  case 314:
+		  	main314(argc, argv);
+		    	break;
+		  case 315:
+		  	main315();
+		    	break; 
 /*		  case 601:
 		  	main601();
 		    	break;
@@ -78,14 +86,14 @@ int main(int argc,char *argv[])
 		    	break;
 		  case 707:
 		  	main707();
-		    	break;*/
+		    	break;
 		  case 801:
 		  	main801();
 		    	break;
 		  case 802:
 		  	main802();
 		    	break;
-/*		  case 1001:
+		  case 1001:
 		  	main1001();
 		    	break;
 		  case 1010:

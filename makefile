@@ -16,7 +16,7 @@ CFLAGS = -g -Wall -ansi
 #L_FILES = main703.o
 L_FILES = main.o \
 			main310.o main311.o main312.o \
-			main801.o main802.o
+#			main801.o main802.o
 #			main601.o main602.o main603.o \
 #			main701.o main702.o main703.o main704.o main705.o main706.o main707.o \
 #			main1001.o

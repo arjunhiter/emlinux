@@ -20,6 +20,7 @@ int main313()
 	for( n = 0 ; n < 5; n++ ) {
 		printf("%d ", values[n]);
 	}
+	printf("\n");
 	return(0);
 }
 /*
